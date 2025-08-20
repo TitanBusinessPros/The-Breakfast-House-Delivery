@@ -448,12 +448,9 @@
 
     <script>
         // Stripe Payment Button Handler
-        document.getElementById('stripe-payment-btn').addEventListener('click', function() {
-            // Alert to inform user to provide Stripe link
-            alert('Please provide your Stripe payment link! Once you do, this button will redirect customers directly to your Stripe checkout page.');
-            
-            // When you get your Stripe payment link, replace the alert above with:
-            // window.open('YOUR_STRIPE_PAYMENT_LINK_HERE', '_blank');
+                document.getElementById('stripe-payment-btn').addEventListener('click', function() {
+            // Redirect to Stripe checkout page
+            window.open('https://buy.stripe.com/dRm9AU0d35ok1Hs3B57AI07', '_blank');
         });
 
         // Smooth scrolling for navigation links
@@ -504,4 +501,5 @@
         });
     </script>
 
-</body></html>
+<script>window.onload=function(){var d=document.createElement("div");d.id="aionspaceLoadFinished";document.body.appendChild(d);};</script></body>
+</html>
